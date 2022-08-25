@@ -10,3 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+  //OVO JE GLAVNA ULAZNA TACKA NASE APLIKACIJE
+  //kao main metoda , ona pokrece nasu aplikaciju i pokrece rutni aplikacioni modul AppModule i omogucava da bude prikazano u web browseru
+  
